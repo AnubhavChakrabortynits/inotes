@@ -8,6 +8,7 @@ import Register from './components/Register';
 
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,Route
 } from "react-router-dom"
 import NoteState from './contextapi/notes/noteState';
@@ -21,7 +22,7 @@ function App() {
     <>
     
     <NoteState>
-      <Router>
+      <HashRouter>
     
       <Navbar/>
 
@@ -51,7 +52,7 @@ function App() {
         </Switch>
         </div>
      
-    </Router>
+    </HashRouter>
     </NoteState>
     </>
   );
