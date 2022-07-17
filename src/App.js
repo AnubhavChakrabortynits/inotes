@@ -14,7 +14,7 @@ import NoteState from './contextapi/notes/noteState';
 
 function App() {
   document.addEventListener("contextmenu",(e)=>{
-   // e.preventDefault()
+    e.preventDefault()
       })
 
   return (
